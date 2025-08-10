@@ -1,8 +1,6 @@
 const headertemplate = document.createElement('headertemplate');
 
 headertemplate.innerHTML=`
-    <!DOCTYPE html>
-    <html>
     <div id="menubar">
         <a href="index.php">
             <nav>
@@ -28,7 +26,6 @@ headertemplate.innerHTML=`
             </nav>
         </a>
     </div>
-    </html>
 `;
 
 document.body.appendChild(headertemplate.content);
