@@ -28,4 +28,4 @@ headertemplate.innerHTML=`
     </div>
 `;
 
-document.body.appendChild(headertemplate.content);
+document.body.appendChild(headertemplate);
