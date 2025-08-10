@@ -1,0 +1,48 @@
+html,body{height:100%}
+html,body{width:100%}
+/*Nagivation menu bar*/
+#menubar{
+    background-color: rgba(00, 204, 204,0.25);
+    border-width: 2px;
+    border-color: rgba(0,0,0,0.5);
+    border-style: solid;
+    margin: 0.5%;
+    padding: 0.5%;
+    height: 5%;
+}
+/*not sure how to set it to modify spacing with new buttons, so hardcoded*/
+/*TODO: Dynamic spacing with more buttons*/
+/*TODO: Find if CSS has constants and implement if they do, ie get rid of magic numbers.*/
+#menubar nav{
+    color: black;
+    background: white;
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    width: calc(25% - 1.5%); /*4 elements, maybe program? minus the width of all other spacings*/
+    display: inline-block;
+    height: 60%;
+    padding:0.5%;
+    text-align: center;
+}
+#menubar a{
+    text-decoration: none;
+}
+#menubar h1{
+    margin: auto;
+}
+
+table{
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+}
+
+.project_table{
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+}
+.project_table hd{
+    width: 15%;
+}
