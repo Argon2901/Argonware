@@ -1,4 +1,6 @@
 <!DOCTYPE html>
+<script><?php include "index.js"?></script>
+
 <html>
     <head>
         <title>I'll Think of a Title Name Later</title>
@@ -11,10 +13,9 @@
 
     </head>
 
-    <script><?php include "index.js"?></script>
+    
 
     <body>
-        
         The personal website of Collin Thompson. 
     </body>
 </html>
