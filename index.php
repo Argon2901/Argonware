@@ -1,5 +1,3 @@
-<?php
-echo`
 <!DOCTYPE html>
 <html>
     <head>
@@ -17,4 +15,4 @@ echo`
     <body>
         The personal website of Collin Thompson. 
     </body>
-</html>`;
+</html>
