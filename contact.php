@@ -1,6 +1,7 @@
 <?php
     include "api.php";
     include "db.php";
+    include "components.php"
 ?>
 
 <!DOCTYPE html>
@@ -11,12 +12,12 @@
         <meta name="author" content="Collin Thompson">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <link href="style.css" rel="stylesheet" type="text/css"/>
-        <script src="index.js" type="text/javascript" defer></script>
+        <style><?php include "style.css"; ?></style>
 
     </head>
 
     <body>
+        <?php echo header_template();?>
         <h1>Contact Me</h1>
         <p>Email: crt15209@gmail.com</p>
         <p>Phone: +1 (616) 250-9558</p>

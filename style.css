@@ -36,6 +36,13 @@ table{
     border-style: solid;
     border-color: black;
     border-width: 2px;
+    margin:       1%;
+}
+
+td, th{
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
 }
 
 .project_table{

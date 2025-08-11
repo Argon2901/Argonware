@@ -1,7 +1,8 @@
 <?php
 declare (strict_types=1);
 
-$headertemplate = `
+function header_template(): string{ 
+    return <<<EOD
     <div id="menubar">
         <a href="index.php">
             <nav>
@@ -27,5 +28,5 @@ $headertemplate = `
             </nav>
         </a>
     </div>
-`;
-
+EOD;
+}

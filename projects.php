@@ -1,3 +1,8 @@
+<?php
+include "components.php";
+
+?>
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -6,10 +11,12 @@
         <meta name="author" content="Collin Thompson">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <link href="style.css" rel="stylesheet" type="text/css"/>
-        <script src="index.js" type="text/javascript" defer></script>
+        <style><?php include "style.css"; ?></style>
+
     </head>
+
     <body>
+        <?php echo header_template();?>
         <p>Project status will be updated when I get to it.</p>
         <hr>
         <h1>Projects</h1>
@@ -43,7 +50,7 @@
             </tr>
             <tr>
                 <th>Link</th>
-                <td><a href="https://www.illthinkofanamelater.io/">https://www.illthinkofanamelater.io/</a></td>
+                <td><a href="https://www.argonware.org/">https://www.argonware.org/</a></td>
             </tr>
             <tr>
                 <th>Download</th>
