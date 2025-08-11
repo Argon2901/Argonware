@@ -1,4 +1,6 @@
 <?php
+declare (strict_types=1);
+
 $headertemplate = `
     <div id="menubar">
         <a href="index.php">
