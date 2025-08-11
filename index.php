@@ -16,7 +16,7 @@ include "components.php";
     </head>
 
     <body>
-        <?php echo $headertemplate;?>
+        <?php echo "$headertemplate";?>
         The personal website of Collin Thompson. 
     </body>
 </html>
