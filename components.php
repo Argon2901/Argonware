@@ -1,6 +1,5 @@
-const headertemplate = document.createElement('headertemplate');
-
-headertemplate.innerHTML=`
+<?php
+$headertemplate = `
     <div id="menubar">
         <a href="index.php">
             <nav>
@@ -28,4 +27,3 @@ headertemplate.innerHTML=`
     </div>
 `;
 
-document.body.appendChild(headertemplate);
