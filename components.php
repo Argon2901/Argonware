@@ -9,7 +9,8 @@ function http_head(): string{
         <meta name="author" content="Collin Thompson">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <style><?php include "style.css"; ?></style>
+        <link rel="stylesheet" href="style.css" type="text/css">
+
 
     </head>
 EOD;
