@@ -1,13 +1,11 @@
 <?php
-    include "api.php";
-    include "db.php";
     include "components.php"
 ?>
 
 <!DOCTYPE html>
 <html>
     <head>
-        <title>I'll Think of a Title Name Later</title>
+        <title>Argonware</title>
         <meta charset="UTF-8">
         <meta name="author" content="Collin Thompson">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -23,7 +21,7 @@
         <p>Phone: +1 (616) 250-9558</p>
         <hr>
         <h3>Send a message</h3>
-        <form>
+        <form method="POST" action="API/send_message.php">
             <p>
                 Want to ask me something? Want to tell me how to make this site better?<br>
                 Send me a message, and I'll get back to you!
@@ -37,14 +35,10 @@
             <input type="phone" id="phone" name="phone" placeholder="(555) 555-5555">
             <input type="submit" value="Submit">
         </form>
-        <?php
-            if($_POST["message"] != null){
-                if(send_message($_POST["message"], $_POST["email"], $_POST["phone"])){
-                    echo "<p>Message Sent</p>";
-                } else{
-                    echo "<p>Message Failed to Send</p>";
-                }
-            }
-        ?>
+        <hr>
+        <h3>Really don't like me? Press this button to slow down my computer!</h3>
+        <form method="POST" action="API/slowdown_server.php">
+            <input type="submit" value="Increase Lag">
+        </form>
     </body>
 </html>

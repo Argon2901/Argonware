@@ -6,7 +6,7 @@ include "components.php";
 <!DOCTYPE html>
 <html>
     <head>
-        <title>I'll Think of a Title Name Later</title>
+        <title>Argonware</title>
         <meta charset="UTF-8">
         <meta name="author" content="Collin Thompson">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,6 +17,6 @@ include "components.php";
 
     <body>
         <?php echo header_template();?>
-        The personal website of Collin Thompson. 
+        <h1>The personal website of Collin Thompson.</h1>
     </body>
 </html>
