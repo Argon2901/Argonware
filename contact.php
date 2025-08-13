@@ -29,7 +29,7 @@
                 Send me a message, and I'll get back to you!
             </p>
             <p><label for="message">Please type the message content here</label></p>
-            <textarea id="message" name="message" rows="6" cols="40" placeholder="Please write your message here" required></textarea><br>
+            <textarea id="message" name="message" rows="6" cols="40" placeholder="Please write your message here" maxlength="800" required></textarea><br>
             
             <label for="email">Email:</label>
             <input type="email" id="email" name="email" placeholder="email@example.com" required><br>
