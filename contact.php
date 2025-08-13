@@ -32,9 +32,9 @@
             <textarea id="message" name="message" rows="6" cols="40" placeholder="Please write your message here" maxlength="800" required></textarea><br>
             
             <label for="email">Email:</label>
-            <input type="email" id="email" name="email" placeholder="email@example.com" required><br>
+            <input type="email" id="email" name="email" placeholder="email@example.com" maxlength="50" required><br>
             <label for="phone">Phone:</label>
-            <input type="phone" id="phone" name="phone" placeholder="(555) 555-5555">
+            <input type="phone" id="phone" name="phone" placeholder="(555) 555-5555" maxlength="50">
             <input type="submit" value="Submit">
         </form>
         <hr>
