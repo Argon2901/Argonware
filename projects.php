@@ -49,7 +49,7 @@ with PHP serving as the backend.
             </tr>
             <tr>
                 <th>Link</th>
-                <td><a href="https://www.argonware.org/">https://www.argonware.org/</a></td>
+                <td><a href="https://www.argonware.org/">https://www.argonware.org/</a><br>https://github.com/Argon2901/Argonware</td>
             </tr>
             <tr>
                 <th>Download</th>
