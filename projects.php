@@ -80,11 +80,11 @@ Box is custom designed out of laser cut plywood or acrylic.
             </tr>
             <tr>
                 <th>Status</th>
-                <td>In Progress</td>
+                <td>In Progress, prototyping stage</td>
             </tr>
             <tr>
                 <th>Link</th>
-                <td>placeholder github link</td>
+                <td>N/A</td>
             </tr>
             <tr>
                 <th>Download</th>
@@ -98,7 +98,7 @@ Box is custom designed out of laser cut plywood or acrylic.
         <table>
             <tr>
                 <th>Name</th>
-                <td>Forcing a microcontroller buzzer to play audio</td>
+                <td>Microcontroller Audio Driver</td>
             </tr>
             <tr>
                 <th>Start Date</th>
@@ -124,7 +124,7 @@ audio file onto the microcontroller.
 
 The final version does unfortunately appear to be lost to time, as this was 
 programmed on a "deep freeze" lab computer that resets its image every boot
-and the lab class was unpublished, so I don't have access to the submission.
+and the lab class was unpublished, however it exists in a mostly-completed state.
                 </pre></td>
             </tr>
             <tr>
@@ -133,7 +133,7 @@ and the lab class was unpublished, so I don't have access to the submission.
             </tr>
             <tr>
                 <th>Link</th>
-                <td>N/A</td>
+                <td>https://github.com/Argon2901/Schoolwork-CT/tree/main/Microcontrollers</td>
             </tr>
             <tr>
                 <th>Download</th>
@@ -168,11 +168,11 @@ in the near future.
             </tr>
             <tr>
                 <th>Link</th>
-                <td>placeholder github link</td>
+                <td>https://github.com/Argon2901/Schoolwork-CT/tree/main/OS</td>
             </tr>
             <tr>
                 <th>Download</th>
-                <td></td>
+                <td>Private downloads to be implemented later</td>
             </tr>
         </table>
 
@@ -198,7 +198,7 @@ to MIPS assembly.
             </tr>
             <tr>
                 <th>Link</th>
-                <td>placeholder github link</td>
+                <td>https://github.com/Argon2901/Schoolwork-CT/tree/main/ProgLang</td>
             </tr>
             <tr>
                 <th>Download</th>
@@ -229,7 +229,7 @@ where I implemented a software model of a cache and counted its efficiency
             </tr>
             <tr>
                 <th>Link</th>
-                <td>placeholder github link</td>
+                <td>https://github.com/Argon2901/Schoolwork-CT/tree/main/CompArch/project</td>
             </tr>
             <tr>
                 <th>Download</th>
@@ -262,7 +262,7 @@ computing.
             </tr>
             <tr>
                 <th>Link</th>
-                <td>placeholder github link</td>
+                <td>https://github.com/Argon2901/Schoolwork-CT/tree/main/Concurrent</td>
             </tr>
             <tr>
                 <th>Download</th>
@@ -273,7 +273,7 @@ computing.
         <table>
             <tr>
                 <th>Class Name</th>
-                <td>Systems programming</td>
+                <td>Systems Programming</td>
             </tr>
             <tr>
                 <th>Semester</th>
@@ -293,7 +293,7 @@ the idea of pipes and using network packet algorithms like UDP.
             </tr>
             <tr>
                 <th>Link</th>
-                <td>placeholder github link</td>
+                <td>https://github.com/Argon2901/Schoolwork-CT/tree/main/Systems</td>
             </tr>
             <tr>
                 <th>Download</th>
@@ -334,7 +334,7 @@ individual components.
             </tr>
             <tr>
                 <th>Link</th>
-                <td>placeholder github link</td>
+                <td>https://github.com/Argon2901/Schoolwork-CT/tree/main/CompOrg</td>
             </tr>
             <tr>
                 <th>Download</th>
