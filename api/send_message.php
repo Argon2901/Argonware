@@ -1,14 +1,31 @@
 <?php
-declare (strict_types=1);
-
-$ini = parse_ini_file(".ini");
 /**
  * Recieves information from a contact post and emails it to my email.
  */
-function send_message(string $message, string $email, string $phone): int{
-    $headers[] = "MIME-Version: 1.0";
-    $headers[] = "Content-type: text/html; charset=UTC-8";
-    $headers[] = "TO: " . $ini["email"]["name"] . " <" . $ini["email"]["email"] . ">";
-    $headers[] = "messenger@" . $ini["website"]["url"];
-    mail($ini["email"]["email"], "Message from " . $email, $message, $headers);   
+
+declare (strict_types=1);
+
+
+$query = "INSERT INTO messages (message, email, phone) VALUES (?, ?, ?)";
+$ini = parse_ini_file("/Argonware/.ini", true)["database"];
+
+//print_r($ini);
+
+$mysqli = new mysqli($ini["host"], $ini["username"], $ini["password"], "argonware");
+
+if($mysqli->connect_error != null){
+    echo "Mysql connection error: " . $mysqli->connect_error;
+    return;
 }
+
+$stmt = $mysqli->prepare($query);
+$stmt->bind_param("sss", $_POST["message"], $_POST["email"], $_POST["phone"]);
+
+if($stmt->execute()){
+    echo "stmt execute success";
+} else{
+    echo "stmt execute failure: " . $stmt->error;
+}
+
+?>
+

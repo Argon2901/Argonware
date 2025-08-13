@@ -1,3 +1,5 @@
+<script src="https://cdn.jsdelivr.net/npm/htmx.org@2.0.6/dist/htmx.min.js" integrity="sha384-Akqfrbj/HpNVo8k11SXBb6TlBWmXXlYQrCSqEWmyKJe+hDm3Z/B2WVG4smwBkRVm" crossorigin="anonymous"></script>
+
 <?php
     include "components.php"
 ?>
@@ -21,7 +23,7 @@
         <p>Phone: +1 (616) 250-9558</p>
         <hr>
         <h3>Send a message</h3>
-        <form method="POST" action="API/send_message.php">
+        <form hx-post="API/slowdown_server.php">
             <p>
                 Want to ask me something? Want to tell me how to make this site better?<br>
                 Send me a message, and I'll get back to you!
@@ -37,7 +39,7 @@
         </form>
         <hr>
         <h3>Really don't like me? Press this button to slow down my computer!</h3>
-        <form method="POST" action="API/slowdown_server.php">
+        <form hx-post="API/slowdown_server.php">
             <input type="submit" value="Increase Lag">
         </form>
     </body>

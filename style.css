@@ -33,7 +33,7 @@ html,body{width:100%}
 #menubar h1{
     margin: auto;
     background-color: rgba(0,0,0,0);
-    
+    border-style:none;
     height:auto;
     display: inline-block;
 }
