@@ -22,9 +22,12 @@ $stmt = $mysqli->prepare($query);
 $stmt->bind_param("sss", $_POST["message"], $_POST["email"], $_POST["phone"]);
 
 if($stmt->execute()){
-    echo "stmt execute success";
+    echo "<p>Success<br>Thank you for sending a message.</p>";
 } else{
-    echo "stmt execute failure: " . $stmt->error;
+    echo "<p>";
+    echo "Failure: " . $stmt->error;
+    echo "<br>Please contact the owner through other listead means.";
+    echo "</p>";
 }
 
 ?>
