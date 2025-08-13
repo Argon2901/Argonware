@@ -23,7 +23,7 @@
         <p>Phone: +1 (616) 250-9558</p>
         <hr>
         <h3>Send a message</h3>
-        <form hx-post="API/slowdown_server.php">
+        <form hx-post="API/send_message.php">
             <p>
                 Want to ask me something? Want to tell me how to make this site better?<br>
                 Send me a message, and I'll get back to you!

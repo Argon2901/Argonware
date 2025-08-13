@@ -1,6 +1,6 @@
 <?php
 /**
- * Recieves information from a contact post and emails it to my email.
+ * Recieves information from a contact post and stores responses in a database.
  */
 
 declare (strict_types=1);
